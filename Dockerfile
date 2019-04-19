@@ -1,3 +1,3 @@
 FROM opensuse/leap
 
-zypper install git-core which curl wget
+RUN zypper install git-core which curl wget
