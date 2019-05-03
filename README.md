@@ -7,7 +7,8 @@ For statically compiling git, you can do the following
 
 On host machine
 ```
-git clone git@github.com:git/git.git 
+git clone git@github.com:git/git.git
+git checkout maint
 docker run -it -v $PWD/git:/data sellersj/opensuse-leap /bin/bash
 ```
 
